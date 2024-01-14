@@ -1,0 +1,92 @@
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.groupInstasesContainer {
+  transition: 2s;
+}
+
+/*DUE DATE*/
+.dueDateContainer {
+  text-align: left;
+}
+
+.input {
+  width: 20vw;
+}
+/**********************/
+.container1, .container2 {
+  text-align: left;
+  padding: 5%;
+  margin: 1vw;
+  flex: 1;
+  background-color: rgba(165, 165, 165, 0.15);  
+  backdrop-filter: blur(90px);
+  border-radius: 5px;
+  border: solid 3px rgba(192, 192, 192, 0.15);
+  transition: 0.5s;
+}
+
+.container3 {
+  text-align: left;
+  width: 77vw;
+  padding: 5%;
+  margin: 4vw;
+  box-sizing: border-box;
+  background-color: rgba(165, 165, 165, 0.15);  
+  backdrop-filter: blur(90px);
+  border-radius: 5px;
+  border: solid 3px rgba(192, 192, 192, 0.15);
+  transition: 0.5s;
+  margin-left: 11vw;
+  margin-bottom: 10%;
+}
+
+.title {
+    margin: 5 0vh;
+    text-align: left;
+}
+
+.cardHeader {
+    display: inline;
+}
+
+.card {
+   margin: auto;
+}
+
+.notation {
+    position: relative;
+    left: 9px;
+}
+
+.userGroups {
+    width: 100%;
+}
+
+/*TOTAL BUDGET COMPONENT*/
+
+.totalBudgetCard {
+    width: 30%;
+    margin: auto;
+}
+
+/* USER GROUPS
+.userGroups {
+    margin-bottom: 150px;
+} */
+
+.dropDownContent {
+  position: relative;
+  left: 5%;
+  text-align: center;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 500ms;
+  width: 90%;
+}

@@ -1,0 +1,26 @@
+.charts {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.titlesContainer {
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.titles {
+  position: relative;
+  top: 11vh;
+}
+
+.tooltip {
+  background: #121212dd;
+  color: azure;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}

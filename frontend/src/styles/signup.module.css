@@ -1,0 +1,48 @@
+.form {
+  width: 25vw;
+  position: relative;
+  left: 0vw;
+  bottom: 5vw;
+}
+
+.png {
+  position: relative;
+  width: 46vw;
+}
+
+.p {
+  position: relative;
+  left: 0vw;
+  top: 0vw;
+  font-size: 70%;
+  color: white;
+}
+
+.h2 {
+  position: relative;
+  top: 1.5vw;
+  font-size: 3vw;
+  color: white;
+}
+
+.container {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  width: 46vw;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.pngContainer {
+  position: relative;
+  width: 46vw;
+  flex-direction: column;
+}

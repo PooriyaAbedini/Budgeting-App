@@ -1,0 +1,68 @@
+body {
+  background: rgb(46,46,46);
+  background: radial-gradient(circle, rgba(46,46,46,1) 0%, rgba(15,15,15,1) 99%, rgba(0,0,0,1) 100%);
+  background-size: contain;
+  height: 116.2vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+  opacity: 40%;
+}
+
+.form-group {
+  margin: 10px auto;
+}
+
+.login-form {
+  display: block;
+  position: relative;
+  top: 90px;
+  left: 150px;
+  bottom: 300px;
+  z-index: 1;
+}
+
+.login-png-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.login-png {
+ display: inline;   
+ position: absolute;
+ right: 100px;
+ width: 56.7%;
+}
+
+
+.navbar-links {
+  position: relative;
+  margin-left: auto;
+}
+
+.headerNav {
+  margin-top: 1.5rem;
+}
+
+.brand {
+  color: white;
+  font-weight: 560;
+  font-size: 1.5rem;
+}
+
+.drop-down-list {
+  display: none;
+}
+
+.homePageContainer {
+  position: relative;
+}
+
+

@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div {
+  flex-wrap: wrap;
+  border: solid balck 2px;
+}
+
+.png {
+    width: 46vw;
+}
+
+.content {
+  width: 46vw;
+}
+
+h1 {
+  position: relative;
+  bottom: 14vh;
+  right: 10vw;
+}
+
+.h3 {
+  position: relative;
+  bottom: 10vh;
+  color: whitesmoke;
+}
+
+.p {
+  position: relative;
+  bottom: 5vh;
+  right: 5.8vw;
+  color: whitesmoke;
+}
+
+a {
+  width: 12vw;
+}
+
+.button {
+  border: none;
+  width: 11vw;
+  background-color: #c1121f;
+  /* opacity: 70%; */
+}
+
+.button:hover {
+  /* background-color: rgb(225, 225, 225); */
+  background-color: #c1121f;
+  opacity: 100%;
+}
+

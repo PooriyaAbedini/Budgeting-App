@@ -1,0 +1,155 @@
+.homePageContainer {
+    position: relative;
+}
+
+/*EXPENCES LIST*/
+.totalBudgetCard {
+  padding: 2%;
+  position: relative;
+  top: 50px;
+  width: 30%;
+  margin: auto;
+  background-color: rgba(165, 165, 165, 0.15);  
+  backdrop-filter: blur(90px);
+  border-radius: 15px;
+  border: solid 3px rgba(192, 192, 192, 0.15);
+}
+
+.groupsContainer {
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.noGroupsNotation {
+  order: 3;
+}
+
+.homeTotalBudgetContainer {
+  order: 1;
+}
+
+.cards {
+  position: static;
+  margin: auto;
+  order: 2;
+}
+
+.lable {
+  margin-top: 0.6em;
+}
+
+.progressGroup {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.titleBox {
+  flex: 5;
+  order: 1;
+  background-color: rgba(165, 165, 165, 0.15);  
+  backdrop-filter: blur(90px);
+  border-radius: 8.3px;
+  border: solid 3px rgba(192, 192, 192, 0.15);
+}
+
+.progressBox {
+  position: relative;
+  top: 2vh;
+  flex: 8;
+  order: 2;
+}
+
+.buttonBox {
+  position: relative;
+  top: 2vh;
+  flex: 1;
+  order: 3;
+}
+
+.meter {
+  position: relative;
+  top: 1vh;
+  width: 100%;
+  height: 300%;
+}
+
+.homeTotalMeter {
+  width: 50%;
+}
+
+.expensesListLi {
+  display: flex;   
+}
+
+.p {
+  font-size: 70%;
+  margin-bottom: 0;
+}
+
+.sapnsDiv {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.spanContainer {
+  width: 12%;
+  text-align: left;
+}
+
+/*MODAL*/
+.modalBackground {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  backdrop-filter: blur(3px);
+}
+
+.modalContainer {
+  width: 50%;
+  padding: 3%;
+  background-color: rgba(24, 24, 24, 0.607);  
+  backdrop-filter: blur(90px);
+  border-radius: 8.3px;
+  border: solid 3px rgba(255, 255, 255, 0.15);
+}
+
+.closeButton {
+  padding: 0%;
+  /* width: 8%; */
+  position: relative;
+  top: 1%;
+  left: 45%;
+}
+
+.modalForm {
+  position: relative;
+}
+
+.modalFormInputs {
+  width: 60%;
+  margin: auto;
+}
+
+.dropDownContent {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 500ms;
+  width: 100%;
+}
+
+
+
